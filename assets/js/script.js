@@ -31,6 +31,15 @@ while(gameOver === false){
 
       alert("Hai perso! Hai fatto " + numGiocati.length + " tentativi");
     }
+    else if(number > limit){
+      alert("Hai superato il limite di 100");
+    }
+    else if(number < 1){
+      alert("Non puoi inserire un numero inferiore ad 1!");
+    }
+    else if( isNaN(number) === true ) {
+      alert("Non hai inserito un numero!")
+    }
     else{
       numGiocati.push(number);
       if(maxTentativi === numGiocati.length){
