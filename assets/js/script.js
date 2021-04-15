@@ -31,7 +31,7 @@ while(gameOver === false){
 
       alert("Hai perso! Hai fatto " + numGiocati.length + " tentativi");
     }
-    else if(number > limit){
+    else if(number > limite){
       alert("Hai superato il limite di 100");
     }
     else if(number < 1){
